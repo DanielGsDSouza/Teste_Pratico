@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*-----------------------------------*/
+/*CSS- FUNDO/TELA + ÍCONE DE USUÁRIO*/
+/*---------------------------------*/
+
+body {
+    background-color: #000;
+    background-image: url(../img/FndLogin.jpg);
+    background-size: cover;
+}
+
+.FundoIcone {
+    z-index: 100;
+    max-width: 50px;
+    width: 100%;
+    margin-left: 660px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: rgb(78, 77, 77);
+    border-radius: 15px;
+}
+
+.icone {
+    font-size: 40px;
+    cursor: pointer;
+    color: #fff;
+}
+hr {
+    max-width: 50px;
+}
+
+.icone:hover  {
+    color: #000;
+    transition: 0.9s;
+}
+.FundoIcone:hover {
+    background-color: #fff;
+}
+
+/*---------------------------*/
+/*----CSS- CAMPO DE LOGIN----*/
+/*---------------------------*/
+
+
+.telaFundoLogin {
+    z-index: 200;
+    max-width: 450px;
+    width: 100%;
+    margin-left: 445px;
+    margin-top: 0px;
+    background-color: rgb(19, 19, 18);
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#inputUser {
+    width: 97%;
+    padding: 5px;
+    font-size: 17px;
+    color: #fff;
+    margin: 3px;
+}
+#inputPass {
+    width: 97%;
+    padding: 5px;
+    font-size: 17px;
+    margin: 3px;
+    color: #fff;
+    
+}
+
+#botaoLogin {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 195px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgb(44, 43, 43);
+    border-radius: 12px;
+    color: #fff;
+    border:none;
+    font-size: 15px;
+}
+#botaoLogin:hover {
+    background-color: rgb(97, 95, 95);
+    transition: 0.9s;
+}
+
+h3 {
+    text-align: center;
+    color: #fff;
+}
+
+input {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 12px;
+    outline: none;
+
+}

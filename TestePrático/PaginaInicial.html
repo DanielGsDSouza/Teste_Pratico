@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Prático- Daniel Gomes de Souza</title>
+    <link rel="shortcut icon" href="img/testIco.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/PgInicial.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    </head>
+<body>
+
+    <div class="blocoPg">
+        <div id="painelA">
+            <div id="usuario">
+                <div id="fundoCirculoUser">
+                    <i class="fas fa-user-circle" id="iconeUser"></i>
+                    <i class="fas fa-chevron-right" id="setaUser"></i>
+                    </i>
+                   <a href="index.html" id="h5">Sair</a>
+                </div>
+                <i class="fas fa-moon" id="mudarCor" onclick="mudarTema()"></i>
+                <i class="fas fa-sun" id="mudarCorLuz" onclick="mudarTemaClaro()"></i>
+                <hr>
+            </div>
+            <div id="favoritos">
+                <h3>Favoritas</h3>
+                <i class="fas fa-star" id="msgFavoritas"></i>
+                <h3 id="trinta">30</h3>
+            </div>
+            <div id="conta1">
+                <i class="fas fa-ellipsis-h" id="setaBaixa"></i>
+                    <h3 id="h3Conta">Conta 1</h3>
+                    <h3 id="quinze">15</h3>
+            </div>
+            <div id="conta2">
+                <i class="fas fa-ellipsis-h" id="setaBaixa2"></i>
+                    <h3 id="h3Conta2">Conta 2</h3>
+                    <h3 id="quinze">15</h3>
+            </div>
+            <div id="conta3">
+                <i class="fas fa-ellipsis-h" id="setaBaixa3"></i>
+                    <h3 id="h3Conta3">Conta 3</h3>
+                    <h3 id="quinze">20</h3>
+            </div>
+                <h4 id="testePratico">Teste Prático
+                <br>
+                <i class="fab fa-linkedin" id="linkedin"></i>
+                <a href="https://www.linkedin.com/in/danielgdsouza/" target="_blank" id="autor">Daniel Gomes de Souza</a></h4> 
+        </div>
+
+        <div id="painelB">
+            <div id="fundoPainelB">
+                <div id="pesquisaEBtns">
+                    <div id="fundoPesquisa">
+                        <i class="fas fa-language" id="iconLang"></i>
+                        <input type="text" id="inputPesquisa" placeholder="Pesquisar...">
+                        <i class="fas fa-search" id="pesquisarIcon"></i>
+                    </div>
+                    <hr id="hrPainelB">
+                    <div id="botoe">
+                        <button id="btnAtribuir">Atribuir</button>
+                        <button id="btnArquivar" onclick="arquivar()">Arquivar</button>
+                        <button id="btnAgendar">Agendar</button>
+                    </div>
+                    <div id="msg1">
+                        <div id="fundoMsg1">
+                            <i class="fas fa-trash-alt" id="lixeira" onclick="apagarMsg()"></i>
+                            <i class="far fa-circle" id="circleCircle" onclick="selecionar()"></i>
+                            <a href="PaginaConversa1.html"><i class="fas fa-user-circle" id="JoseRonaldoIcon"></i></a>
+                            <a href="PaginaConversa1.html"><h6>José Ronaldo</h6></a>
+                            <a href="PaginaConversa1.html"><i class="fas fa-envelope-square" id="envelope"></i></a>
+                        </div>
+                    </div>
+                    <div id="msg2">
+                        <div id="fundoMsg2">
+                            <i class="fas fa-trash-alt" id="lixeira2" onclick="apagarMsg2()"></i>
+                            <i class="far fa-circle" id="circleCircle2" onclick="selecionarDois()"></i>
+                            <a href="PaginaConversa2.html"><i class="fas fa-user-circle" id="JoseRonaldoIcon2"></i></a>
+                            <a href="PaginaConversa2.html"><h6 id="outroNome">Agnaldo Barbosa</h6></a>
+                            <a href="PaginaConversa2.html"><i class="fas fa-envelope-square" id="envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script defer src="js/PgInicial.js"></script>
+    <script defer src="js/delet.js"></script>
+    <script defer src="js/select.js"></script>
+    <script defer src="js/select2.js"></script>
+</body>
+</html>
